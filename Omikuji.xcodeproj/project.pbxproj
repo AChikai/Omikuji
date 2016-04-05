@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BD57B931C97FB4D0082AD62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD57B921C97FB4D0082AD62 /* main.m */; };
+		1BD57B961C97FB4D0082AD62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD57B951C97FB4D0082AD62 /* AppDelegate.m */; };
+		1BD57B991C97FB4D0082AD62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD57B981C97FB4D0082AD62 /* ViewController.m */; };
+		1BD57B9C1C97FB4D0082AD62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD57B9A1C97FB4D0082AD62 /* Main.storyboard */; };
+		1BD57B9E1C97FB4D0082AD62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BD57B9D1C97FB4D0082AD62 /* Assets.xcassets */; };
+		1BD57BA11C97FB4D0082AD62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD57B9F1C97FB4D0082AD62 /* LaunchScreen.storyboard */; };
+		1BD57BAE1C97FFC20082AD62 /* kichi.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD57BA81C97FFC20082AD62 /* kichi.png */; };
+		1BD57BAF1C97FFC20082AD62 /* chukichi.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD57BA91C97FFC20082AD62 /* chukichi.png */; };
+		1BD57BB01C97FFC20082AD62 /* daikichi.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD57BAA1C97FFC20082AD62 /* daikichi.png */; };
+		1BD57BB11C97FFC20082AD62 /* kyo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD57BAB1C97FFC20082AD62 /* kyo.png */; };
+		1BD57BB21C97FFC20082AD62 /* suekichi.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD57BAC1C97FFC20082AD62 /* suekichi.png */; };
+		1BD57BB31C97FFC20082AD62 /* shokichi.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD57BAD1C97FFC20082AD62 /* shokichi.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BD57B8E1C97FB4D0082AD62 /* Omikuji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omikuji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD57B921C97FB4D0082AD62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BD57B941C97FB4D0082AD62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BD57B951C97FB4D0082AD62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BD57B971C97FB4D0082AD62 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BD57B981C97FB4D0082AD62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BD57B9B1C97FB4D0082AD62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BD57B9D1C97FB4D0082AD62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BD57BA01C97FB4D0082AD62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BD57BA21C97FB4D0082AD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BD57BA81C97FFC20082AD62 /* kichi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kichi.png; sourceTree = "<group>"; };
+		1BD57BA91C97FFC20082AD62 /* chukichi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chukichi.png; sourceTree = "<group>"; };
+		1BD57BAA1C97FFC20082AD62 /* daikichi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daikichi.png; sourceTree = "<group>"; };
+		1BD57BAB1C97FFC20082AD62 /* kyo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyo.png; sourceTree = "<group>"; };
+		1BD57BAC1C97FFC20082AD62 /* suekichi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suekichi.png; sourceTree = "<group>"; };
+		1BD57BAD1C97FFC20082AD62 /* shokichi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shokichi.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BD57B8B1C97FB4D0082AD62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BD57B851C97FB4D0082AD62 = {
+			isa = PBXGroup;
+			children = (
+				1BD57B901C97FB4D0082AD62 /* Omikuji */,
+				1BD57B8F1C97FB4D0082AD62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BD57B8F1C97FB4D0082AD62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BD57B8E1C97FB4D0082AD62 /* Omikuji.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BD57B901C97FB4D0082AD62 /* Omikuji */ = {
+			isa = PBXGroup;
+			children = (
+				1BD57B941C97FB4D0082AD62 /* AppDelegate.h */,
+				1BD57B951C97FB4D0082AD62 /* AppDelegate.m */,
+				1BD57B971C97FB4D0082AD62 /* ViewController.h */,
+				1BD57B981C97FB4D0082AD62 /* ViewController.m */,
+				1BD57B9A1C97FB4D0082AD62 /* Main.storyboard */,
+				1BD57B9D1C97FB4D0082AD62 /* Assets.xcassets */,
+				1BD57B9F1C97FB4D0082AD62 /* LaunchScreen.storyboard */,
+				1BD57BA21C97FB4D0082AD62 /* Info.plist */,
+				1BD57B911C97FB4D0082AD62 /* Supporting Files */,
+			);
+			path = Omikuji;
+			sourceTree = "<group>";
+		};
+		1BD57B911C97FB4D0082AD62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BD57BA81C97FFC20082AD62 /* kichi.png */,
+				1BD57BA91C97FFC20082AD62 /* chukichi.png */,
+				1BD57BAA1C97FFC20082AD62 /* daikichi.png */,
+				1BD57BAB1C97FFC20082AD62 /* kyo.png */,
+				1BD57BAC1C97FFC20082AD62 /* suekichi.png */,
+				1BD57BAD1C97FFC20082AD62 /* shokichi.png */,
+				1BD57B921C97FB4D0082AD62 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BD57B8D1C97FB4D0082AD62 /* Omikuji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BD57BA51C97FB4D0082AD62 /* Build configuration list for PBXNativeTarget "Omikuji" */;
+			buildPhases = (
+				1BD57B8A1C97FB4D0082AD62 /* Sources */,
+				1BD57B8B1C97FB4D0082AD62 /* Frameworks */,
+				1BD57B8C1C97FB4D0082AD62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Omikuji;
+			productName = Omikuji;
+			productReference = 1BD57B8E1C97FB4D0082AD62 /* Omikuji.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BD57B861C97FB4D0082AD62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Akio Chikai";
+				TargetAttributes = {
+					1BD57B8D1C97FB4D0082AD62 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6K6EAJ7B2B;
+					};
+				};
+			};
+			buildConfigurationList = 1BD57B891C97FB4D0082AD62 /* Build configuration list for PBXProject "Omikuji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BD57B851C97FB4D0082AD62;
+			productRefGroup = 1BD57B8F1C97FB4D0082AD62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BD57B8D1C97FB4D0082AD62 /* Omikuji */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BD57B8C1C97FB4D0082AD62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD57BB31C97FFC20082AD62 /* shokichi.png in Resources */,
+				1BD57BAE1C97FFC20082AD62 /* kichi.png in Resources */,
+				1BD57BB01C97FFC20082AD62 /* daikichi.png in Resources */,
+				1BD57BAF1C97FFC20082AD62 /* chukichi.png in Resources */,
+				1BD57BA11C97FB4D0082AD62 /* LaunchScreen.storyboard in Resources */,
+				1BD57BB21C97FFC20082AD62 /* suekichi.png in Resources */,
+				1BD57B9E1C97FB4D0082AD62 /* Assets.xcassets in Resources */,
+				1BD57BB11C97FFC20082AD62 /* kyo.png in Resources */,
+				1BD57B9C1C97FB4D0082AD62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BD57B8A1C97FB4D0082AD62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD57B991C97FB4D0082AD62 /* ViewController.m in Sources */,
+				1BD57B961C97FB4D0082AD62 /* AppDelegate.m in Sources */,
+				1BD57B931C97FB4D0082AD62 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BD57B9A1C97FB4D0082AD62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BD57B9B1C97FB4D0082AD62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BD57B9F1C97FB4D0082AD62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BD57BA01C97FB4D0082AD62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BD57BA31C97FB4D0082AD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1BD57BA41C97FB4D0082AD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BD57BA61C97FB4D0082AD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Omikuji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.delay.Omikuji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BD57BA71C97FB4D0082AD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Omikuji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.delay.Omikuji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BD57B891C97FB4D0082AD62 /* Build configuration list for PBXProject "Omikuji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD57BA31C97FB4D0082AD62 /* Debug */,
+				1BD57BA41C97FB4D0082AD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BD57BA51C97FB4D0082AD62 /* Build configuration list for PBXNativeTarget "Omikuji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD57BA61C97FB4D0082AD62 /* Debug */,
+				1BD57BA71C97FB4D0082AD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BD57B861C97FB4D0082AD62 /* Project object */;
+}
